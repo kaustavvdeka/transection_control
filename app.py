@@ -207,7 +207,7 @@ with col_r:
     st.plotly_chart(fig_pie, use_container_width=True)
 
 # ── Transaction Explorer ─────────────────────────────────────────────────────
-st.subheader("🔍 Transaction Intelligence Explorer")
+st.subheader("🔍 Transaction Intelligence ")
 
 # Filter issues
 selected_status = st.selectbox("Focus Area", ["All Issues"] + list(issues_df["status"].unique()))
