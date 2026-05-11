@@ -85,7 +85,7 @@ def fmt_inr(val):
 
 def get_status_color(status):
     colors = {
-        "missing_in_bank": "#FF6B6B",
+        "missing_in_bank": "#FF6B65",
         "missing_in_ledger": "#FFA94D",
         "amount_mismatch": "#FFD43B",
         "duplicate": "#CC5DE8",
